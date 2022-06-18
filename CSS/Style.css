@@ -1,0 +1,158 @@
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: rgba(34, 34, 34, 1);
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    position: relative;
+}
+
+body {
+    margin: 0%;
+    font-family: Roboto;
+    background-color: #E5E5E5;
+    display: flex;
+    display: inline;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#Entrega{
+    background-image: url("file:///C:/Users/Usuario/Desktop/DH%20-%20Tareas/Front%20-%20end/Clase%2011%20-%20Flexbox/img/delivery.png");
+    border-radius: 5px;
+    width: 491px;
+    height: 350px;
+    margin: 35px 19px;
+}
+
+h1{
+    color: #39B24A;
+    font-size: 24px;
+    
+}
+
+.rojo {
+    color: rgba(252, 32, 12, 1);
+}
+
+h2{
+    color: rgba(252, 32, 12, 1);
+    font-style: normal;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.blanco {
+    color: white;
+}
+
+#Top5 {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 491px;
+    height: 350px;
+    margin: 35px 19px;
+    position: relative;
+}
+
+h3{
+    font-size: 20px;
+    bottom: 215px;
+    left: 69px;
+    position: absolute;
+
+
+}
+
+ol {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 51px;
+    bottom: 60px;
+    line-height: 19px;
+}
+
+footer{
+    display: flex;
+    background-color: rgba(34, 34, 34, 1);
+    height: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#logo-footer{
+    right: 42px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+#final{
+    position: absolute;
+    right: 162px;
+    padding-right: 10px;
+}
+
+#barra-footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 20px;
+    justify-content: space-around;  
+}
+
+.barra-final{
+    padding-top: 12px;
+}
+
+a{
+    font-size: 16px;
+    color: rgba(243, 243, 243, 1);
+    text-decoration: none;
+    padding-left: 13px;
+}
+
+nav{
+    position: absolute;
+    right: 20px;
+}
+
+#top {
+    width: 92px;
+    height: 129px;
+    align-self: flex-end;
+    margin-top: 132px;
+    margin-right: 74px;
+    position: absolute;
+}
+
+#podio {
+    position: absolute;
+    left: 30%;
+    
+}
+
+.espacio{
+    padding-bottom: 10px;
+    left: 51px;
+
+}
+
+.pizza{
+    width: 92px;
+    height: 80px;
+    margin: 10px 10px 10px 20px;
+}
+
